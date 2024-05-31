@@ -1,0 +1,81 @@
+/*---Masking style----*/
+
+.mask-title-outer {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: crosshair;
+    display: inline-block;
+}
+
+.mask-title {
+    margin-bottom: 0;
+    /* text-transform: uppercase; */
+    /* padding: 0 6px; */
+}
+
+.clone-outer {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin-top: -115px !important;
+    margin-left: -115px !important;
+    overflow: hidden;
+    transition: all 0.3s ease-out 0s;
+}
+
+.clone-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 115px !important;
+    margin-left: 115px !important;
+    transition: all 0.3s ease-out 0s;
+}
+
+.mask-title.example2:not(.clone-title) {
+    color: #ccc;
+    margin: 0px;
+}
+
+.mask-title.example2.clone-title .heading-gradient-2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: hsla(0, 0%, 100%, 0.822);
+    /* background: white; */
+    -webkit-text-fill-color: rgb(2, 2, 2); /* Will override color (regardless of order) */
+}
+
+.mask-title.example2.clone-title .heading-outline {
+    background: linear-gradient(140.77deg, #FC00FF 15.29%, #00DBDE 95.88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.heading-gradient-2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:transparent;
+    /* background: linear-gradient(to bottom right, #FC00FF 15.29%, #12aad8 95.88%), linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)); */
+    background: linear-gradient(140.77deg, #FC00FF 15.29%, #00DBDE 95.88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* -webkit-text-fill-color: #ccc; */
+}
+
+@media only screen and (max-width: 780px) {
+    .clone-outer {
+        display: none;
+    }
+
+    .heading-gradient-2 {
+        /* background: linear-gradient(to bottom right, #FC00FF 15.29%, #12aad8 95.88%), linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)); */
+        background: linear-gradient(140.77deg, #FC00FF 15.29%, #00DBDE 95.88%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent !important;
+    }
+}

@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  background: whitesmoke !important;
+}
+
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+section {
+  height: 100%;
+}
+
+.bg-img {
+  background-image: url(https://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.bg-img h3 {
+  color: #fff;
+}
+
+.bg-color {
+  background: #db2a2a;
+}
+
+.bg-color h3 {
+  color: #fff;
+}
+
+/*---Masking style----*/
+
+.mask-title-outer {
+  position: relative;
+  overflow: hidden;
+  cursor: crosshair;
+  display: inline-block;
+}
+
+.mask-title {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  padding: 0 6px;
+}
+
+.clone-outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin-top: -115px;
+  margin-left: -115px;
+  overflow: hidden;
+  transition: all 0.3s ease-out 0s;
+}
+
+.clone-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 115px;
+  margin-left: 115px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.mask-title.example2:not(.clone-title) {
+  color: #ccc;
+  margin: 0px;
+}
+
+.mask-title.example2.clone-title {
+  color: #212529;
+}
+
+
+.heading-gradient-2 {
+  /* background: linear-gradient(to bottom right, #FC00FF 15.29%, #12aad8 95.88%), linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)); */
+  background: linear-gradient(140.77deg, #FC00FF 15.29%, #00DBDE 95.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
