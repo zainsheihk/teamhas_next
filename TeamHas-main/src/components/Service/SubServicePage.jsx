@@ -20,29 +20,29 @@ const SubServicePage = ({slug}) => {
     <>
       {slug === "adcreatives" ? (
         <AddCreative />
-      ) : slug === "socialmedia" ? (
+      ) : slug === "socialmediacreative" ? (
         <SocialMedia />
-      ) : slug === "infographics" ? (
+      ) : slug === "emaildesign" ? (
         <EmailDesign  />
       ) : slug === "presentationdesign" ? (
         <PresentationDesign/>
       ) : slug === "elearningdesign" ? (
         <ELearningDesign />
-      ) : slug === "merchdesign" ? (
+      ) : slug === "packagingandmerchdesign" ? (
         <MerchDesign />
       ) : slug === "brandidentity" ? (
         <BrandIdentity />
-      ) : slug === "webdesign" ? (
+      ) : slug === "uianduxdesign" ? (
         <WebDesign />
       ) : slug === "motiongraphic" ? (
         <MotionGraphic />
       ) : slug === "animation" ? (
         <Animation />
-      ) : slug === "storyboarding" ? (
+      ) : slug === "videoproduction" ? (
         <StoryBoarding />
-      ) : slug === "characterdesign" ? (
+      ) : slug === "illustrations" ? (
         <CharacterDesign />
-      ) : slug === "2d3dmockup" ? (
+      ) : slug === "3dmodelsandmockups" ? (
         <Mockup />
       ) : slug === "comics" ? (
         <Comics />

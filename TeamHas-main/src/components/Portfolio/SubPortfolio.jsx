@@ -9,7 +9,7 @@ const SubPortfolio = ({ slug }) => {
     const [islaoding, setIsLoading] = useState(true)
 
     const PORTFOLIO = {
-        "clarocasestudy": {
+        "claro": {
             imgPath: "/imgs/portfolio/claro-case-study-final.png"
         },
         "delice": {

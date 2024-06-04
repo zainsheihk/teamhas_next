@@ -4851,6 +4851,9 @@ button {
     .about .box-container .left {
         width: 100%;
     }
+    .service-page .about .myBtn{
+        margin: 0 auto !important;
+    }
 
     .about .box-container .right {
         width: 100%;
@@ -5132,9 +5135,7 @@ p.journey-p {
     min-height: 450px;
 }
 
-.service-page .about .myBtn{
-margin: 0 auto !important;
-}
+
 /* Media Queries Start */
 
     @media only screen and (max-width: 600px) {
@@ -5434,8 +5435,8 @@ margin: 0 auto !important;
         padding-top: 5px;
     }
 
-    .right {
-        /* display: block !important; */
+    footer .right {
+        display: block !important;
     }
 
     .desktop-menu {

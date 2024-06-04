@@ -70,7 +70,7 @@ const ServicePage = () => {
               </p>
             </div>
           </a>
-          <a href="services/socialmedia">
+          <a href="services/socialmediacreative">
             <div className="service-card  bg-grad-animation s-media-thmb">
               <img src="/imgs/vector2.png" alt="" />
               <h2>Social Media creative</h2>
@@ -82,7 +82,7 @@ const ServicePage = () => {
               </p>
             </div>
           </a>
-          <a href="services/infographics">
+          <a href="services/emaildesign">
             <div className="service-card  bg-grad-animation email-design-thmb">
               <img src="/imgs/vector4.png" alt="" />
               <h2>Email Design</h2>
@@ -119,7 +119,7 @@ const ServicePage = () => {
               </p>
             </div>
           </a>
-          <a href="services/merchdesign">
+          <a href="services/packagingandmerchdesign">
             <div className="service-card  bg-grad-animation merch-design-thmb">
               <img src="/imgs/Vector6.png" alt="" />
               <h2>Merch & Packaging Design</h2>
@@ -145,7 +145,7 @@ const ServicePage = () => {
             </div>
           </a>
 
-          <a href="services/webdesign">
+          <a href="services/uianduxdesign">
             <div className="service-card  bg-grad-animation ui-thmnb">
               <img src="/imgs/Vector 8.png" alt="" />
               <h2>UI & UX Design</h2>
@@ -183,7 +183,7 @@ const ServicePage = () => {
               </p>
             </div>
           </a>
-          <a href="services/characterdesign">
+          <a href="services/illustrations">
             <div className="service-card  bg-grad-animation illustration-thmnb">
               <img src="/imgs/vector12.png" alt="" />
               <h2>Illustrations</h2>
@@ -194,7 +194,7 @@ const ServicePage = () => {
               </p>
             </div>
           </a>
-          <a href="services/storyboarding">
+          <a href="services/videoproduction">
             <div className="service-card  bg-grad-animation video-pro-thmnb">
               <img src="/imgs/vector13.png" alt="" />
               <h2>Video Production</h2>
@@ -207,7 +207,7 @@ const ServicePage = () => {
             </div>
           </a>
 
-          <a href="services/2d3dmockup">
+          <a href="services/3dmodelsandmockups">
             <div className="service-card  bg-grad-animation d-model-thmmnb">
               <img src="/imgs/vector14.png" alt="" />
               <h2> 3D Models & Mockups</h2>

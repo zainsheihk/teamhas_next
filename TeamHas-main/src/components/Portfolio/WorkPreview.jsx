@@ -12,7 +12,7 @@ const WorkPreview = () => {
       imgPath: "/imgs/our-work-thumbnail/claro-01.jpg",
       imgWidth: "350",
       imgHeight: "350",
-      link: "/portfolio/clarocasestudy",
+      link: "/portfolio/claro",
       className: "port-card col-4 load-more-port"
 
     },

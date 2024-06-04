@@ -80,7 +80,7 @@ const Banner = () => {
         <BannerImages classess={"banner__right"} src={"/imgs/servicebanner/2-01.png"} alt="image_banner2" width={500} height={400} />
       </section>
     );
-  } else if (slug === "socialmedia") {
+  } else if (slug === "socialmediacreative") {
     return (
         <section className="banner service-banner">
           <BannerImages classess={"banner__left banner__left_service"} src={"/imgs/servicebanner/social1.png"} alt="image_banner1" width={500} height={570} />
@@ -88,7 +88,7 @@ const Banner = () => {
           <BannerImages classess={"banner__right"} src={"/imgs/servicebanner/social2.png"} alt="image_banner2" width={500} height={425} />
         </section>
     );
-  } else if (slug === "infographics") {
+  } else if (slug === "emaildesign") {
     return (
         <section className="banner service-banner">
           <BannerImages classess={"banner__left banner__left_service"} src={"/imgs/servicebanner/email1.png"} alt="image_banner1" width={800} height={338} />
@@ -112,7 +112,7 @@ const Banner = () => {
           <BannerImages classess={"banner__right"} src={"/imgs/servicebanner/elearningdesign2.png"} alt="image_banner2s" width={1000} height={420} />
         </section>
     );
-  } else if (slug === "merchdesign") {
+  } else if (slug === "packagingandmerchdesign") {
     return (
         <section className="banner service-banner">
           <BannerImages classess={"banner__left banner__left_service"} src={"/imgs/servicebanner/packagingdesign1.png"} alt="image_banner1" width={800} height={420} />
@@ -128,7 +128,7 @@ const Banner = () => {
           <BannerImages classess={"banner__right"} src={"/imgs/servicebanner/brandidentity2.png"} alt="image_banner2s" width={800} height={420} />
         </section>
     );
-  } else if (slug === "webdesign") {
+  } else if (slug === "uianduxdesign") {
     return (
         <section className="banner service-banner">
           <BannerImages classess={"banner__left banner__left_service"} src={"/imgs/servicebanner/webdesign1.png"} alt="image_banner1" width={800} height={420} />
@@ -152,7 +152,7 @@ const Banner = () => {
           <BannerImages classess={"banner__right"} src={"/imgs/servicebanner/animation2.png"} alt="image_banner2s" width={800} height={420} />
         </section>
     );
-  } else if (slug === "storyboarding") {
+  } else if (slug === "videoproduction") {
     return (
         <section className="banner service-banner">
           <BannerImages classess={"banner__left banner__left_service"} src={"/imgs/servicebanner/characterdesign1.png"} alt="image_banner1" width={800} height={420} />
@@ -160,7 +160,7 @@ const Banner = () => {
           <BannerImages classess={"banner__right"} src={"/imgs/servicebanner/characterdesign2.png"} alt="image_banner2" width={800} height={420} />
         </section>
     );
-  } else if (slug === "characterdesign") {
+  } else if (slug === "illustrations") {
     return (
         <section className="banner service-banner">
           <BannerImages classess={"banner__left banner__left_service"} src={"/imgs/servicebanner/infographics2.png"} alt="image_banner1" width={800} height={420} />
@@ -168,7 +168,7 @@ const Banner = () => {
           <BannerImages classess={"banner__right"} src={"/imgs/servicebanner/infographics1.png"} alt="image_banner2" width={800} height={420} />
         </section>
     );
-  } else if (slug === "2d3dmockup") {
+  } else if (slug === "3dmodelsandmockups") {
     return (
         <section className="banner service-banner">
           <BannerImages classess={"banner__left banner__left_service"} src={"/imgs/servicebanner/models1.png"} alt="image_banner1" width={800} height={420} />

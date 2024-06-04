@@ -16,7 +16,7 @@ const DynamicSubPortfolio = dynamic(
 const SubPortfolio = () => {
   const { slug } = useParams();
   const pageSlugs = [
-    "clarocasestudy",
+    "claro",
     "delice",
     "eli5",
     "frankgreen",

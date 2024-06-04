@@ -19,13 +19,13 @@ const navList = [
             {
                 name: "Social Media creative",
                 desc: "Energizing Your Social Presence",
-                path: "/services/socialmedia",
+                path: "/services/socialmediacreative",
                 img: '/imgs/sms.png',
             },
             {
                 name: "Email Design",
                 desc: "Simplifying Complex Data",
-                path: "/services/infographics",
+                path: "/services/emaildesign",
                 img: '/imgs/eds.png',
             },
             {
@@ -55,7 +55,7 @@ const navList = [
             {
                 name: "UI & UX Design",
                 desc: "Building Your Digital Front",
-                path: "/services/webdesign",
+                path: "/services/uianduxdesign",
                 img: '/imgs/ixds.png',
             },
             {
@@ -73,19 +73,19 @@ const navList = [
             {
                 name: "Video Production",
                 desc: "Visualizing Your Narrative",
-                path: "/services/storyboarding",
+                path: "/services/videoproduction",
                 img: '/imgs/vps.png',
             },
             {
                 name: "Illustrations",
                 desc: "Creating Memorable Characters",
-                path: "/services/characterdesign",
+                path: "/services/illustrations",
                 img: '/imgs/ils.png',
             },
             {
                 name: "3D Models & Mockups",
                 desc: "isualizing Before Creating",
-                path: "/services/2d3dmockup",
+                path: "/services/3dmodelsandmockups",
                 img: '/imgs/3ds.png',
             },
             {
@@ -153,13 +153,13 @@ export const serviceNavList = [
     {
         name: "Social Media creative",
         desc: "Energizing Your Social Presence",
-        path: "/services/socialmedia",
+        path: "/services/socialmediacreative",
         img: '/imgs/sms.png',
     },
     {
         name: "Email Design",
         desc: "Simplifying Complex Data",
-        path: "/services/infographics",
+        path: "/services/emaildesign",
         img: '/imgs/eds.png',
     },
     {
@@ -177,7 +177,7 @@ export const serviceNavList = [
     {
         name: "Packaging & Merch Design",
         desc: "Packaging that Pops",
-        path: "/services/merchdesign",
+        path: "/services/packagingandmerchdesign",
         img: '/imgs/eds.png',
     },
     {
@@ -189,7 +189,7 @@ export const serviceNavList = [
     {
         name: "UI & UX Design",
         desc: "Building Your Digital Front",
-        path: "/services/webdesign",
+        path: "/services/uianduxdesign",
         img: '/imgs/ixds.png',
     },
     {
@@ -207,19 +207,19 @@ export const serviceNavList = [
     {
         name: "Video Production",
         desc: "Visualizing Your Narrative",
-        path: "/services/storyboarding",
+        path: "/services/videoproduction",
         img: '/imgs/vps.png',
     },
     {
         name: "Illustrations",
         desc: "Creating Memorable Characters",
-        path: "/services/characterdesign",
+        path: "/services/illustrations",
         img: '/imgs/ils.png',
     },
     {
         name: "3D Models & Mockups",
         desc: "isualizing Before Creating",
-        path: "/services/2d3dmockup",
+        path: "/services/3dmodelsandmockups",
         img: '/imgs/3ds.png',
     },
     {
@@ -241,11 +241,11 @@ export const footerLinks = [
     },
     {
         name: "Social Media Design",
-        path: "/services/socialmedia",
+        path: "/services/socialmediacreative",
     },
     {
         name: "Email Design",
-        path: "/services/infographics",
+        path: "/services/emaildesign",
     },
     {
         name: "Presentation Design",
@@ -257,7 +257,7 @@ export const footerLinks = [
     },
     {
         name: "UI&UX Design",
-        path: "/services/webdesign",
+        path: "/services/uianduxdesign",
     },
     {
         name: "Motion Graphics",
@@ -265,15 +265,15 @@ export const footerLinks = [
     },
     {
         name: "Illustrations",
-        path: "/services/characterdesign",
+        path: "/services/illustrations",
     },
     {
         name: "3D Models & Mockups",
-        path: "/services/2d3dmockup",
+        path: "/services/3dmodelsandmockups",
     },
     {
         name: "Packaging & Merch Design",
-        path: "/services/merchdesign",
+        path: "/services/packagingandmerchdesign",
     },
     {
         name: "E-Learning Graphics",
@@ -285,7 +285,7 @@ export const footerLinks = [
     },
     {
         name: "Video Production",
-        path: "/services/storyboarding",
+        path: "/services/videoproduction",
     },
     {
         name: "Comics",

@@ -148,10 +148,7 @@ const AboutComp = () => {
                                 <b>Holistic Approach:</b> Combining aesthetics with functionality for impactful results.
                             </p>
                         </li>
-                        <li>
-                            <span className='circle-check'>{ICONS.check}</span>
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        </li>
+                      
                         <li>
                             <span className='circle-check'>{ICONS.check}</span>
                             <p>

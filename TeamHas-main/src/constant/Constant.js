@@ -1,1 +1,1 @@
-export const videoUrl="https://teamhas.net/imgs/frame.mp4"
+export const videoUrl="/video/frame.mp4"

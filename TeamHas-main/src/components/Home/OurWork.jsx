@@ -12,7 +12,7 @@ const OurWork = () => {
     {
       name: "Claro",
       img: '/imgs/our-work-thumbnail/claro-01.jpg',
-      link: "/portfolio/clarocasestudy",
+      link: "/portfolio/claro",
 
     },
     {

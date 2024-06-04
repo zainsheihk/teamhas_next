@@ -8,18 +8,18 @@ const SubServices = () => {
   const { slug } = useParams();
   const pageSlugs = [
     "adcreatives",
-    "socialmedia",
-    "infographics",
+    "socialmediacreative",
+    "emaildesign",
     "presentationdesign",
     "elearningdesign",
-    "merchdesign",
+    "packagingandmerchdesign",
     "brandidentity",
-    "webdesign",
+    "uianduxdesign",
     "motiongraphic",
     "animation",
-    "storyboarding",
-    "characterdesign",
-    "2d3dmockup",
+    "videoproduction",
+    "illustrations",
+    "3dmodelsandmockups",
     "comics",
   ];
 
