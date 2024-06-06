@@ -5654,7 +5654,7 @@ p.journey-p {
 
 
 #fixed-header {
-    width: 100%;
+    width: 100vw;
     /* position: fixed; */
     position: relative;
     top: 0;
@@ -5663,7 +5663,7 @@ p.journey-p {
 }
 
 #fixed-header {
-    width: 100%;
+    width: 100vw;
     transition: transform 0.3s ease, background-color 0.3s ease;
     background-color: transparent;
 }

@@ -243,7 +243,7 @@ const Navbar = ({classes = "p-fixed"}) => {
                                 <li><Link href="/">Home</Link></li>
                                 {/* <!-- <li><Link href="service">Services</Link></li> --> */}
                                 <li className="">
-                                    <div tabindex="0" className="onclick-menu">
+                                    <div tabIndex="0" className="onclick-menu">
                                         <div>
                                             <Link href="/services">Service</Link>
                                             {ICONS.upArrow}

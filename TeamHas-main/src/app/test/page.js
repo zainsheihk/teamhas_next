@@ -114,7 +114,7 @@ const test = () => {
                   >
                     <div className="image one">
                       {" "}
-                      <Image width={500} height={330} src="/imgs/no.3-01-01.png" />
+                      <Image width={500} height={330} src="/imgs/no.3-01-01.png" alt="N/A" />
                     </div>
                     <div>
                       <h3>
@@ -137,7 +137,7 @@ const test = () => {
                   >
                     <div className="image two">
                       {" "}
-                      <Image width={500} height={330} src="/imgs/no.2-01.png" />
+                      <Image width={500} height={330} src="/imgs/no.2-01.png" alt="N/A"/>
                     </div>
 
                     <div>
@@ -160,7 +160,7 @@ const test = () => {
                     data-aos="fade-up"
                   >
                     <div className="image three">
-                      <Image width={500} height={330} src="/imgs/no.1-01.png" />
+                      <Image width={500} height={330} src="/imgs/no.1-01.png" alt="N/A" />
                     </div>
 
                     <div>

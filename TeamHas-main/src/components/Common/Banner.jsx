@@ -193,7 +193,7 @@ const Banner = () => {
 const BannerImages = ({ classess, src, alt, width, height }) => {
   return (
     <div className={classess}>
-      <Image src={src} alt={alt} width={width} height={height} sizes="100vw" />
+      <Image src={src} alt={alt} width={width} height={height} sizes="100vw" alt="N/A"/>
     </div>
   )
 }

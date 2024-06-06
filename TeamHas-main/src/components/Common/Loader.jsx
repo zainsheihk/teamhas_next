@@ -6,7 +6,7 @@ const Loader = () => {
         <>
             <div className="loader-wrap">
                 <div className='loader-box'>
-                    <Image src={"/imgs/loader-2.gif"} width={200} height={200} priority={true}/>
+                    <img src={"/imgs/loader-2.gif"} width={200} height={200}  alt="loader"/>
                 </div>
             </div>
         </>

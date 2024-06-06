@@ -6,7 +6,7 @@ import Confetti from 'react-confetti'
 
 const ThankYou = () => {
   const { slug } = useParams();
-  const [size, setSize] = useState({ width: 1024, height: 640 })
+  const [size, setSize] = useState({ width: 100, height: 100 })
 
   useEffect(() => {
     if (window && window?.innerWidth !== size.width) {
@@ -15,6 +15,7 @@ const ThankYou = () => {
       setSize({ height, width })
     }
   }, [window?.innerWidth])
+
 
   return (
     <main className="pb-200">
